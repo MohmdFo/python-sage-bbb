@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python-sage-bbb"
-version = "0.1.1"
+version = "0.1.2"
 description = "A Python client library for interacting with BigBlueButton API, enabling the creation and management of online meetings, recordings, and configurations."
 authors = ["MohmdFo <mohammad.fotouhi80@gmail.com>"]
 license = "MIT"
@@ -19,7 +19,7 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.10,<4.0"
 requests = "^2.32.3"
 
 [tool.poetry.group.dev.dependencies]
